@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-auto {
+    flex: 0 0 auto;
+}
+
+.col {
+    flex: 1 0 0;
+}
+
+[class^="col"] {
+    padding: 0.5rem;
+}
+
+.col-1 {
+    flex: 0 0 8.33333333%;
+}
+
+.col-2 {
+    flex: 0 0 16.66666667%;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+}
+
+.col-4 {
+    flex: 0 0 33.33333333%;
+}
+
+.col-5 {
+    flex: 0 0 41.66666667%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+}
+
+.col-7 {
+    flex: 0 0 58.33333333%;
+}
+
+.col-8 {
+    flex: 0 0 66.666666667%;
+}
+
+.col-9 {
+    flex: 0 0 75%;
+}
+
+.col-10 {
+    flex: 0 0 83.33333333%;
+}
+
+.col-11 {
+    flex: 0 0 91.66666667%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+}
+
+.font {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card {
+    box-shadow: 0 0 30px 30px rgba(167, 161, 161, 0.5);
+    color: black;
+}
+
+.example-1 {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.505);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 10px;
+}
+
+.example-2 {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid lightsalmon;
+}
